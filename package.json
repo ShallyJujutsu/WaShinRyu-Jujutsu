@@ -1,0 +1,49 @@
+{
+  "name": "washinryu-jujutsu",
+  "version": "1.0.0",
+  "description": "washinryu-jujutsu",
+  "main": "server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShallyJujutsu/WaShinRyu-Jujutsu.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ShallyJujutsu/WaShinRyu-Jujutsu/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "@popperjs/core": "^2.11.7",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.2.3",
+    "concurrently": "^8.0.1",
+    "cookie-parser": "^1.4.6",
+    "core-js": "^3.29.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "googleapis": "^114.0.0",
+    "if-env": "^1.0.4",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.22",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0",
+    "react-lazy-load": "^4.0.1",
+    "run-all": "^1.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
