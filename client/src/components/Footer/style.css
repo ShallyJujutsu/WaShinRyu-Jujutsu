@@ -1,0 +1,30 @@
+
+#outer_footer{
+  position:sticky;
+  bottom:0;
+  text-align:right;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-style:solid;
+  border-width:2px;
+  border-color: rgb(23, 2, 37);
+  padding:2px 2px 0px 2px;
+color:black;
+/* added opacity to background-color style */
+background-color:rgb(62, 66, 145, 0.4);
+
+
+}
+
+.footerRow {
+  margin-right:0px;
+}
+
+#texting, #image{
+color:black;
+  /*text-align:center; */
+  /* background-color:rgb(130, 132, 175);*/
+  /* background: linear-gradient(45deg,black,indigo, #053ea8, #7a00ff);  */
+  background: linear-gradient(90deg,rgb(62, 66, 145, 1),rgb(130, 132, 175),rgb(130, 132, 175));
+  background-clip:border-box;
+}
+

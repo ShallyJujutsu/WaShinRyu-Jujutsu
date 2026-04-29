@@ -1,0 +1,16 @@
+#purple{
+    box-shadow: 0 5px grey;
+    border-radius:95%;
+    background-color:rgb(75, 81, 177);
+    float:left;
+    color:silver;
+    text-decoration:none; 
+    padding:8px; 
+    /*only work if .navbar button has a .hover*/
+    transform: translateY(4px);
+}
+
+#purple:hover{
+    color: black;
+    background-color: grey;
+}

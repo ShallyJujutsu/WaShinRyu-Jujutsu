@@ -1,0 +1,67 @@
+.toolbar {
+    border-style:solid;
+    border-width:5px;
+    border-color: rgb(23, 2, 37);
+    position:fixed;
+    top:0;
+    right:0;
+    width:100%;
+    background-color:rgb(130, 132, 175);
+    z-index:150;
+  }
+  
+   #navForm {
+    border-radius:95%;
+
+    float:right;
+    color:silver;
+    text-decoration:none; 
+    padding:8px; 
+    /*only work if .navbar button has a .hover*/
+    transform: translateY(4px);
+  }
+  .toolbar_navigation-items li:hover {
+    color:black;
+  } 
+  #red{
+    box-shadow: 0 5px red;
+  }
+  #red:hover{
+    background-color:red;
+  }
+  #green{
+    box-shadow: 0 5px green;
+  }
+  #green:hover{
+    background-color:green;
+  }
+  #blue{
+    box-shadow: 0 5px blue;
+  }
+  #blue:hover{
+    background-color:blue;
+  }
+  
+  
+  h2{
+    font-family:bladeST, Arial, Helvetica, sans-serif;
+    /* color:red; */
+  }
+  
+
+  @media (max-width: 768px) {
+      /* .toolbar_navigation-items{ */
+      #navForm {  
+        display:none;
+      }
+  }
+  /* our big screens */
+  @media (min-width:769px){
+      .toolbar_toggle-button {
+          display:none;
+      }
+
+      .toolbar_logo {
+          margin-left:0;
+      }
+  }

@@ -14,8 +14,8 @@ import {
 //Pages
 import MainPage from './pages/aboutPage';
 import NotFoundPage from './pages/404';
-import ContactPage from './pages/contactPage';
-import PortfolioPage from './pages/portfolioPage';
+// import ContactPage from './pages/contactPage';
+// import PortfolioPage from './pages/portfolioPage';
 
 //Components
 import Navbar from './components/Navbar';
@@ -89,8 +89,8 @@ function App() {
         <Route exact path="/" element={<MainPage/>} />
         
               <Route exact path='/main' element={<MainPage/>} />
-              <Route exact path='/contact' element={<ContactPage/>} />
-              <Route exact path='/portfolio' element={<PortfolioPage/>} />
+              {/* <Route exact path='/contact' element={<ContactPage/>} />
+              <Route exact path='/portfolio' element={<PortfolioPage/>} /> */}
               {/* <Route exact path='/404' component={NotFoundPage} /> */}
               <Route exact path='/NotFoundPage' element={<NotFoundPage/>} />
               <Route path='*' element={<Navigate replace to="/NotFoundPage" />} />

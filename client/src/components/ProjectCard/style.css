@@ -1,0 +1,142 @@
+
+.card {
+  /*change FOOTER linear-gradient if deciding to use top option 
+   background: linear-gradient(90deg,rgb(62, 66, 145, 1),rgb(130, 132, 175),rgb(130, 132, 175)); */
+   background: linear-gradient(180deg,rgb(63, 64, 85),rgb(121, 122, 141),rgb(200, 201, 221));
+   /* background: linear-gradient(180deg,rgb(49, 50, 68),rgb(121, 122, 141),rgb(200, 201, 221)); */
+}
+
+.card-title{
+    max-width:350px;
+border:solid;
+text-align: center;
+background-color:grey;
+/* float: center; */
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+color:black;
+
+}
+.card-title:hover{
+  background-color:black;
+  color:grey;
+  
+}
+
+.card-info{
+  color:black;
+/* border:solid; */
+/* text-decoration: underline; */
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.card-link{
+border:solid;
+
+}
+
+
+/* .card-image {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  } */
+
+
+/* .portfolio-img {
+    display: block;
+    width: 100%;
+    height: auto;
+  } */
+
+.portfolio-img { 
+    border: 3px black solid;
+    height:350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through 
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  } */
+
+.overlay{
+    position:absolute;
+    top: 0%;
+    bottom: 0%;
+    /*this fixed the overlay image being too far to the left. changing "left:100;right:50;" does the same thing*/
+    left: 15%;
+    /* right:77px; */
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #33042b;
+     width:350px;
+    height:350px; 
+}
+
+.overlay:hover {
+    opacity: 0.9;
+    padding-left:20px;
+}
+
+.card-image:hover .overlay {
+    opacity: 1;
+  }
+
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    text-decoration: underline;
+  }
+  /* #loginInfoTitle{
+    text-decoration: underline;
+    color: red;
+  }
+  #loginInfoLabel{
+    text-decoration: none !important;
+color: green;
+  } */
+
+  #login_info{
+    border-top:2px;
+    border-bottom:2px;
+color: green;
+font-weight: 900;
+/* text-shadow:2px 2px #030202; */
+  }
+  #projDescr{
+    text-align: center;
+    
+  }
+
+  .card-info span {
+    text-decoration: underline;
+  }
+ 
