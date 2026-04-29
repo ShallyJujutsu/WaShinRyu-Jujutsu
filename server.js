@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use(cookieParser());
 
 
-require("./routes/api-routes.js")(app);
+//require("./routes/api-routes.js")(app);
 
 //CONFIGURE FOR HEROKU DEPLOYMENT
 
