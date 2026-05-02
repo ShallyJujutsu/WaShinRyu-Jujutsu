@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <>
     <nav className="navbar">
-                <h2>Shalom Dawit</h2>
+                <h2>Wa Shin Ryu Jujutsu</h2>
                 <form>
                   <ScrollToTop />
                 <Link id="red" to="/main">ABOUT</Link>               
