@@ -44,7 +44,7 @@ function Toolbar (props) {
            </div>
            {/* <div className="toolbar__logo"> */}
        
-               <h2>Wa Shin Ryu Jujutsu</h2>
+               <h2>Uconn Jujutsu (Wa Shin Ryu Jujutsu)</h2>
            {/* </div> */}
            {/* <div className="spacer" /> */}
            

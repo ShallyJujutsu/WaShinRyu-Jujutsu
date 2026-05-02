@@ -25,7 +25,7 @@ const UconnAboutPage = () => {
 
         <main className="col-xs-12 col-lg-10">
           <div id="skillsAbout">
-            <h3>Skills </h3>
+            <h3>ABOUT </h3>
 
             <div id="bio">
               {/* <h1>Bio</h1>
@@ -37,19 +37,18 @@ const UconnAboutPage = () => {
               /> */}
 
               <article className="pull-right">
-                <span>Greetings into the window of my life!</span>
                 <p align="justify">
                   Dr. Yiannakis started the UConn Judo Club in 1976 but the name
                   was changed to UConn Judo and Jujutsu Club in 1995, and then
                   finally to UConn Jujutsu Club in 1999. The official Japanese
                   name for the club is BUDENKAN, the school of traditional
-                  martial arts. The club is the home of
-                  <u>Wa Shin Ryu Jujutsu</u>, a holistic, comprehensive system
+                  martial arts. The club is the home of    
+                  <b> Wa Shin Ryu Jujutsu</b>, a holistic, comprehensive system
                   of unarmed combat founded by Prof. Yiannakis in 1983. The
                   system has a basis, in form and philosophy, in Koryu Bujutsu
                   (classical martial arts) but as an evolved system it may be
                   best described as
-                  <u>a modern martial art with classical moorings</u>. Unlike
+                  <b>a modern martial art with classical moorings</b>. Unlike
                   most classical, or classically based systems, however, the art
                   stresses the development of effective combative skills by
                   training students in live sparring situations in distance,
@@ -63,14 +62,14 @@ const UconnAboutPage = () => {
                   appropriate response at the time!
                   <br />
                   <br />
-                  <img
+                  {/* <img
                     align="right"
                     border="0"
                     height="225"
                     alt={"Throw"}
                     src={require("../assets/img/contextPics/Throw1.jpg")}
                     width="100"
-                  />
+                  /> */}
                   An effective martial artist is an empowered individual. And
                   empowered individuals have the confidence to make choices and
                   decide whether to engage in violence, or to contain/defuse a
@@ -84,10 +83,10 @@ const UconnAboutPage = () => {
                   <br />
                   In developing the system the Founder integrated the traditions
                   of the old, with the best of the new, to form a budo system
-                  that serves: (1) <u>As a personal discipline, </u>(2){" "}
-                  <u>As a way of life, and,</u> (3) As a path to self
+                  that serves: (1) <b>As a personal discipline, </b>(2){" "}
+                  <b>As a way of life, and,</b> (3) As a path to self
                   actualization in the physical, psychological and
-                  <u>spiritual domains </u>(the ultimate goal of the system).
+                  <b>spiritual domains </b>(the ultimate goal of the system).
                   <br />
                   <br />
                   The club includes both male and female students and community
@@ -108,7 +107,16 @@ const UconnAboutPage = () => {
                 Resume{" "}
               </a> */}
             </div>
+        
           </div>
+          <img
+                    align="right"
+                    border="0"
+                    height="225"
+                    alt={"Throw"}
+                    src={require("../assets/img/contextPics/Throw1.jpg")}
+                    width="100"
+                  />
         </main>
 
         {/*  <Footer /> */}
