@@ -15,14 +15,14 @@ import {
 import MainPage from './pages/aboutPage';
 import NotFoundPage from './pages/404';
 // import ContactPage from './pages/contactPage';
-// import PortfolioPage from './pages/portfolioPage';
+import DocumentsPage from './pages/documentsPage';
 
 //Components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 // import ProjectList from './components/Project-List';
 //was working pre-nodemailer form issue
-import { ProjectProvider } from "./utils/ProjectContext";
+import { DocumentProvider } from "./utils/DocumentContext";
 
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer';
@@ -83,14 +83,14 @@ function App() {
           <Toolbar drawerClickHandler={drawerToggleClickHandler} />
           <SideDrawer show={sideDrawerOpen} click={drawerToggleClickHandler} />
           {backdrop}
-          <ProjectProvider>
+          <DocumentProvider>
             <Routes>
             
         <Route exact path="/" element={<MainPage/>} />
         
               <Route exact path='/main' element={<MainPage/>} />
-              {/* <Route exact path='/contact' element={<ContactPage/>} />
-              <Route exact path='/portfolio' element={<PortfolioPage/>} /> */}
+              {/* <Route exact path='/contact' element={<ContactPage/>} /> */}
+              <Route exact path='/documents' element={<DocumentsPage/>} />
               {/* <Route exact path='/404' component={NotFoundPage} /> */}
               <Route exact path='/NotFoundPage' element={<NotFoundPage/>} />
               <Route path='*' element={<Navigate replace to="/NotFoundPage" />} />
@@ -98,7 +98,7 @@ function App() {
 
               {/* <Navigate to='/404' replace={true} /> */}
             </Routes>
-          </ProjectProvider>
+          </DocumentProvider>
        
           <Footer />
         </Router>

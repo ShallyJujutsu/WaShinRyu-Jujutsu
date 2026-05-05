@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css"
 import LazyLoad from 'react-lazy-load';
 
-const ProjectCard = ({ name, descriptionShort, imageURL, deployURL, gitHubRepo, loginInfo, skills }) => {
+const DocumentCard = ({ name, descriptionShort, imageURL, deployURL, gitHubRepo, loginInfo, skills }) => {
 
   return (
     <>
@@ -22,12 +22,12 @@ const ProjectCard = ({ name, descriptionShort, imageURL, deployURL, gitHubRepo, 
         {/* <div className="overlay"><div className="text">{name}</div></div> */}
         <a target="_blank" rel="noreferrer" href={gitHubRepo}>
           {/* <span className="gitHub">GitHub Repo:</span> */}
-          <span className="card-title">GitHub Repo: {name}</span>
+          <span className="card-title"> {name}</span>
           </a>
 
         <div className="card-info">
           <p id="projDescr">({descriptionShort})</p>
-          <span>Tools Used: </span><p id="skills">{skills}</p>
+          <span> </span><p id="skills">{skills}</p>
           <p id="login_info">{loginInfo}</p>
         </div>
 
@@ -43,4 +43,4 @@ const ProjectCard = ({ name, descriptionShort, imageURL, deployURL, gitHubRepo, 
 
 };
 
-export default ProjectCard;
+export default DocumentCard;

@@ -1,11 +1,11 @@
 import React, {useState, createContext} from "react";
 
 
-export const ProjectContext = createContext()
+export const DocumentContext = createContext()
 
-export const ProjectProvider = props => {
+export const DocumentProvider = props => {
 
-    const [projects, setProjects] = useState([
+    const [documents, setDocuments] = useState([
         
 
         {
@@ -34,9 +34,9 @@ export const ProjectProvider = props => {
 ]); 
 
     return(
-        <ProjectContext.Provider value={[projects, setProjects]}>
+        <DocumentContext.Provider value={[documents, setDocuments]}>
             {props.children}
-        </ProjectContext.Provider>
+        </DocumentContext.Provider>
 
 );
 
