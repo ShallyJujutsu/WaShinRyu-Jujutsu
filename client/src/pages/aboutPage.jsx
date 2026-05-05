@@ -93,12 +93,7 @@ const UconnAboutPage = () => {
                   participation is encouraged. Club membership costs $20 a
                   semester. The club is free to occasional guests and other
                   visitors.{" "}
-                  <b>
-                    To earn 1 credit for Jujutsu at the University of
-                    Connecticut (As AH1200-03), a permission number is required.
-                    Contact Sensei Kane if you wish to do so.
-                    <br />
-                  </b>
+                  
                 </p>
               </article>
               {/* <a id="purple" href={"../assets/img/pic0.jpg"} target="_blank" rel="noreferrer">RESUME</a> */}
@@ -109,6 +104,18 @@ const UconnAboutPage = () => {
             </div>
         
           </div>
+
+          <div class="flex-container">
+            <div class="text-content">
+          <b >
+                    To earn 1 credit for Jujutsu at the University of
+                    Connecticut (As AH1200-03), a permission number is required.
+                    Contact Sensei Kane if you wish to do so.
+                
+                    <br />
+                    
+                  </b>
+                  </div>
           <img
                     align="right"
                     border="0"
@@ -117,6 +124,7 @@ const UconnAboutPage = () => {
                     src={require("../assets/img/contextPics/Throw1.jpg")}
                     width="100"
                   />
+                  </div>
         </main>
 
         {/*  <Footer /> */}

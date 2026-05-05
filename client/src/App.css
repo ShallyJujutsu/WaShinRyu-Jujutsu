@@ -102,3 +102,9 @@ h1, h3{
   background: rgb(65, 66, 73,1); 
 }
 
+.flex-container {
+  display: flex;
+  align-items: center; /* Vertically centers the text and image */
+  justify-content: space-between; /* Pushes text to left and image to right */
+  gap: 20px; /* Adds space between the text and image */
+}
