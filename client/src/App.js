@@ -15,8 +15,9 @@ import {
 import MainPage from './pages/aboutPage';
 import NotFoundPage from './pages/404';
 // import ContactPage from './pages/contactPage';
-import DocumentsPage from './pages/documentsPage';
+import DocumentListPage from './pages/documentListPage';
 
+//import DocumentPage from './components/Document/{document.name}';
 //Components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -90,11 +91,13 @@ function App() {
         
               <Route exact path='/main' element={<MainPage/>} />
               {/* <Route exact path='/contact' element={<ContactPage/>} /> */}
-              <Route exact path='/documents' element={<DocumentsPage/>} />
+              <Route exact path='/documents' element={<DocumentListPage/>} />
               {/* <Route exact path='/404' component={NotFoundPage} /> */}
               <Route exact path='/NotFoundPage' element={<NotFoundPage/>} />
               <Route path='*' element={<Navigate replace to="/NotFoundPage" />} />
 
+
+              {/* <Route exact path='/documents/{document.name}' element={<DocumentPage/>} /> */}
 
               {/* <Navigate to='/404' replace={true} /> */}
             </Routes>

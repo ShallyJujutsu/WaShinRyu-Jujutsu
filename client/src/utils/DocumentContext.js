@@ -10,12 +10,12 @@ export const DocumentProvider = props => {
 
         {
             
-            // name: "Google-Books",
-            // descriptionShort: "A REACT app saving your library of books to buy or find info on",
-            // gitHubRepo:"https://github.com/MrDawit/Google-Books",
+            name: "Ashi No Kata",
+             descriptionShort: "Techniques of the Russo Ashi Gatame No Kata",
             // deployURL:"https://google-books-hmwk.herokuapp.com/",
-            // skills: "React, CSS, REST API, MERN-stack, MongoDB, Mongoose, Node, Axios, Bootstrap",
-            // id: 7
+           // deployUrl: require(<ashi/>),
+            skills: "1",
+            id: 1
         },
         {
             

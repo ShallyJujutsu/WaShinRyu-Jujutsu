@@ -1,7 +1,8 @@
 import React from 'react';
 import {motion} from 'framer-motion';
-import DocumentList from '../components/DocumentList';
-import { DocumentProvider } from "../utils/DocumentContext";
+// import DocumentList from '../components/DocumentList';
+// import { DocumentProvider } from "../utils/DocumentContext";
+import Document from "../components/Document/index";
 import "../assets/css/portfolioPage.css";
 
 const DocumentListPage = () => {
@@ -25,9 +26,10 @@ const DocumentListPage = () => {
         <div className="bod">
         <main className="col-xs-12 col-lg-10">
         <h1>Documents</h1>
-                <DocumentProvider>
+                {/* <DocumentProvider>
                     <DocumentList/>
-                </DocumentProvider>
+                </DocumentProvider> */}
+                <Document/>
             </main>
        
             </div>
