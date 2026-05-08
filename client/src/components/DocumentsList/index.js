@@ -10,9 +10,7 @@ const DocumentsList = () => {
                 {documents.map(documents => (
                    
                      <div className="col-sm-12 col-md-6 " key={documents.id}>
-                        <DocumentsCard name={documents.name}
-                          imageURL={documents.imageURL} 
-                         descriptionShort={documents.descriptionShort} deployURL={documents.deployURL}  skills ={documents.skills}/>
+                        <DocumentsCard name={documents.name} imageURL={documents.imageURL} descriptionShort={documents.descriptionShort} deployURL={documents.deployURL}  skills ={documents.skills}/>
                     </div>
 
                 ))}

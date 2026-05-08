@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css"
 import LazyLoad from 'react-lazy-load';
+import { Link } from 'react-router-dom';
 
 const DocumentsCard = ({ name, descriptionShort, imageURL, deployURL, gitHubRepo, loginInfo, skills }) => {
 
@@ -10,13 +11,15 @@ const DocumentsCard = ({ name, descriptionShort, imageURL, deployURL, gitHubRepo
       <div className="card">
         {/* <a target="_blank" rel="noreferrer" href={deployURL}> */}
           <div className="card-image">
-          <a target="_blank" rel="noreferrer" href={deployURL}>
+          {/* <a target="_blank" rel="noreferrer" href={deployURL}> */}
+          <Link  to="/documents">
           <LazyLoad offsetVertical={1000} onContentVisible={false}>
             <img className="portfolio-img" alt="holding pattern" src={imageURL}></img>
             </LazyLoad>
             <div className="overlay">
               <div className="text">{name}</div>
-            </div></a>
+            </div>
+            </Link>
           </div>
         {/* </a> */}
         {/* <div className="overlay"><div className="text">{name}</div></div> */}
