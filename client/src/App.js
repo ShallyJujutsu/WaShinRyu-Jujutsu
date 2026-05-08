@@ -15,15 +15,15 @@ import {
 import MainPage from './pages/aboutPage';
 import NotFoundPage from './pages/404';
 // import ContactPage from './pages/contactPage';
-import DocumentListPage from './pages/documentListPage';
-
+import DocumentsListPage from './pages/documentsListPage';
+import DocumentsPage from './pages/documentsPage';
 //import DocumentPage from './components/Document/{document.name}';
 //Components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 // import ProjectList from './components/Project-List';
 //was working pre-nodemailer form issue
-import { DocumentProvider } from "./utils/DocumentContext";
+import { DocumentsProvider } from "./utils/DocumentsContext.js";
 
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer';
@@ -31,7 +31,7 @@ import Backdrop from './components/Backdrop';
 
 import {motion} from 'framer-motion';
 import Tilt from './components/Tilt/Tilt.js';
-import modernBackground from './assets/img/modern5.jpg';
+//import modernBackground from './assets/img/modern5.jpg';
 // Tilt component image supercedes this image
 // import tiltForeground from './assets/img/Globe.jpg';
 
@@ -84,14 +84,15 @@ function App() {
           <Toolbar drawerClickHandler={drawerToggleClickHandler} />
           <SideDrawer show={sideDrawerOpen} click={drawerToggleClickHandler} />
           {backdrop}
-          <DocumentProvider>
+          <DocumentsProvider>
             <Routes>
             
         <Route exact path="/" element={<MainPage/>} />
         
               <Route exact path='/main' element={<MainPage/>} />
               {/* <Route exact path='/contact' element={<ContactPage/>} /> */}
-              <Route exact path='/documents' element={<DocumentListPage/>} />
+              <Route exact path='/documentsList' element={<DocumentsListPage/>} />
+              <Route exact path='/documents' element={<DocumentsPage/>} />
               {/* <Route exact path='/404' component={NotFoundPage} /> */}
               <Route exact path='/NotFoundPage' element={<NotFoundPage/>} />
               <Route path='*' element={<Navigate replace to="/NotFoundPage" />} />
@@ -101,7 +102,7 @@ function App() {
 
               {/* <Navigate to='/404' replace={true} /> */}
             </Routes>
-          </DocumentProvider>
+          </DocumentsProvider>
        
           <Footer />
         </Router>

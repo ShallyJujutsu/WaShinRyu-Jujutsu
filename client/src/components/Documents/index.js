@@ -3,11 +3,11 @@ import "./style.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 
-// const Document = () => {
-//    // const [documents, setdocuments] = useContext(DocumentContext)
+// const Documents = () => {
+//    // const [documents, setDocuments] = useContext(DocumentsContext)
 //     return (
 
-function Document() {
+function Documents() {
   return (
 
       <>
@@ -57,4 +57,4 @@ NOTE:  The techniques below are not listed in any particular order</h4>
   );
 }
 
-export default Document;
+export default Documents;

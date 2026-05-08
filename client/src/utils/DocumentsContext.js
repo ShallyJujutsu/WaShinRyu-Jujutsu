@@ -1,9 +1,9 @@
 import React, {useState, createContext} from "react";
 
 
-export const DocumentContext = createContext()
+export const DocumentsContext = createContext()
 
-export const DocumentProvider = props => {
+export const DocumentsProvider = props => {
 
     const [documents, setDocuments] = useState([
         
@@ -12,7 +12,7 @@ export const DocumentProvider = props => {
             
             name: "Ashi No Kata",
              descriptionShort: "Techniques of the Russo Ashi Gatame No Kata",
-            // deployURL:"https://google-books-hmwk.herokuapp.com/",
+            imageURL: require("../assets/img/contextPics/ankle1.jpg"),
            // deployUrl: require(<ashi/>),
             skills: "1",
             id: 1
@@ -21,11 +21,11 @@ export const DocumentProvider = props => {
             
             // name: "Code Quiz: Basketball (Laker's Edition!)",
             // descriptionShort: "Quiz/Tribute App for Kobe 'Bean' Bryant",
-            // imageURL: require("../assets/img/Code_Quiz.png"),
+             imageURL: require("../assets/img/contextPics/ankle2.jpg"),
             // gitHubRepo:"https://github.com/MrDawit/Code-Quiz",
             // deployURL:"https://mrdawit.github.io/Code-Quiz/index.html",
-            // skills: "HTML, CSS, JQuery, Javascript, Localstorage API, Bootstrap, DOM, Moment library",
-            // id: 8
+            //skills: "HTML, CSS, JQuery, Javascript, Localstorage API, Bootstrap, DOM, Moment library",
+             id: 2
         }
        
 
@@ -34,9 +34,9 @@ export const DocumentProvider = props => {
 ]); 
 
     return(
-        <DocumentContext.Provider value={[documents, setDocuments]}>
+        <DocumentsContext.Provider value={[documents, setDocuments]}>
             {props.children}
-        </DocumentContext.Provider>
+        </DocumentsContext.Provider>
 
 );
 

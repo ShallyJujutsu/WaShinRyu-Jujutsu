@@ -1,11 +1,11 @@
 import React from 'react';
 import {motion} from 'framer-motion';
-// import DocumentList from '../components/DocumentList';
-// import { DocumentProvider } from "../utils/DocumentContext";
-import Document from "../components/Document/index";
+import DocumentsList from '../components/DocumentsList';
+import { DocumentsProvider } from "../utils/DocumentsContext";
+//import Documents from "../components/Documents/index";
 import "../assets/css/portfolioPage.css";
 
-const DocumentListPage = () => {
+const DocumentsListPage = () => {
 
     return (
 
@@ -26,10 +26,10 @@ const DocumentListPage = () => {
         <div className="bod">
         <main className="col-xs-12 col-lg-10">
         <h1>Documents</h1>
-                {/* <DocumentProvider>
-                    <DocumentList/>
-                </DocumentProvider> */}
-                <Document/>
+                <DocumentsProvider>
+                    <DocumentsList/>
+                </DocumentsProvider>
+                {/* <Document/> */}
             </main>
        
             </div>
@@ -41,4 +41,4 @@ const DocumentListPage = () => {
     );
 };
 
-export default DocumentListPage;
+export default DocumentsListPage;

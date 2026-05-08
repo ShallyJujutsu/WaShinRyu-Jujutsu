@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css"
 import LazyLoad from 'react-lazy-load';
 
-const DocumentCard = ({ name, descriptionShort, imageURL, deployURL, gitHubRepo, loginInfo, skills }) => {
+const DocumentsCard = ({ name, descriptionShort, imageURL, deployURL, gitHubRepo, loginInfo, skills }) => {
 
   return (
     <>
@@ -43,4 +43,4 @@ const DocumentCard = ({ name, descriptionShort, imageURL, deployURL, gitHubRepo,
 
 };
 
-export default DocumentCard;
+export default DocumentsCard;
