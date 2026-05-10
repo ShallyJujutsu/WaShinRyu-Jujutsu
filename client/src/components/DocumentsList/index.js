@@ -1,7 +1,7 @@
 import React, {  useContext } from "react";
 import DocumentsCard from "../DocumentsCard";
 import { DocumentsContext } from "../../utils/DocumentsContext"
-import Ashi from "../Ashi";
+
 import {Modal} from "reactstrap";
 
 
@@ -19,7 +19,7 @@ const DocumentsList = () => {
 
                 ))}
 
-                {/* <Ashi/> */}
+            
             </div>
         </div>
     );
