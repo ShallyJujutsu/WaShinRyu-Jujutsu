@@ -13,7 +13,7 @@ export const DocumentsProvider = props => {
             name: "Ashi No Kata",
              descriptionShort: "Techniques of the Russo Ashi Gatame No Kata",
             imageURL: require("../assets/img/contextPics/ankle1.jpg"),
-           // deployUrl: require(<ashi/>),
+           deployURL: "Ashi",
             skills: "1",
             id: 1
         },
@@ -23,7 +23,7 @@ export const DocumentsProvider = props => {
             // descriptionShort: "Quiz/Tribute App for Kobe 'Bean' Bryant",
              imageURL: require("../assets/img/contextPics/ankle2.jpg"),
             // gitHubRepo:"https://github.com/MrDawit/Code-Quiz",
-            // deployURL:"https://mrdawit.github.io/Code-Quiz/index.html",
+             deployURL:"AnotherComponent",
             //skills: "HTML, CSS, JQuery, Javascript, Localstorage API, Bootstrap, DOM, Moment library",
              id: 2
         }

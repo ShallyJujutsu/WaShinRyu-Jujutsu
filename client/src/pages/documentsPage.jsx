@@ -4,9 +4,11 @@ import {motion} from 'framer-motion';
 // import { DocumentsProvider } from "../utils/DocumentsContext";
 import Documents from "../components/Documents/index";
 import "../assets/css/portfolioPage.css";
-
+import DocTEST from '../components/DocTEST';
+import { useLocation } from "react-router-dom";
 const DocumentsListPage = () => {
 
+//console.log(deployURL);
     return (
 
         <>
@@ -28,6 +30,7 @@ const DocumentsListPage = () => {
         <h1>Documents</h1>
     
                 <Documents/>
+            {/* <DocTEST/> */}
             </main>
        
             </div>
