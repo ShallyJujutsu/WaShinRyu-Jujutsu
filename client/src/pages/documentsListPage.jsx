@@ -2,7 +2,7 @@ import React from 'react';
 import {motion} from 'framer-motion';
 import DocumentsList from '../components/DocumentsList';
 import { DocumentsProvider } from "../utils/DocumentsContext";
-//import Documents from "../components/Documents/index";
+
 import "../assets/css/portfolioPage.css";
 
 const DocumentsListPage = () => {
@@ -29,7 +29,7 @@ const DocumentsListPage = () => {
                 <DocumentsProvider>
                     <DocumentsList/>
                 </DocumentsProvider>
-                {/* <Document/> */}
+             
             </main>
        
             </div>

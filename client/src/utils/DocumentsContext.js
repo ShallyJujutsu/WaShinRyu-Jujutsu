@@ -19,12 +19,11 @@ export const DocumentsProvider = props => {
         },
         {
             
-            // name: "Code Quiz: Basketball (Laker's Edition!)",
-            // descriptionShort: "Quiz/Tribute App for Kobe 'Bean' Bryant",
+            // name: "",
+            // descriptionShort: "",
              imageURL: require("../assets/img/contextPics/ankle2.jpg"),
-            // gitHubRepo:"https://github.com/MrDawit/Code-Quiz",
              deployURL:"AnotherComponent",
-            //skills: "HTML, CSS, JQuery, Javascript, Localstorage API, Bootstrap, DOM, Moment library",
+            //skills: "",
              id: 2
         }
        

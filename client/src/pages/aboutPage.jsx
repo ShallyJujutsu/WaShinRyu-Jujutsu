@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 
 const UconnAboutPage = () => {
@@ -28,13 +28,7 @@ const UconnAboutPage = () => {
             <h3>ABOUT </h3>
 
             <div id="bio">
-              {/* <h1>Bio</h1>
-              <img
-                alt={"Shalom Dawit"}
-                src={require("../assets/img/PIC.JPG")}
-                className="image-wrapper float-left img-responsive pr-2"
-                id="bioImage"
-              /> */}
+          
 
               <article className="pull-right">
                 <p align="justify">
@@ -62,14 +56,7 @@ const UconnAboutPage = () => {
                   appropriate response at the time!
                   <br />
                   <br />
-                  {/* <img
-                    align="right"
-                    border="0"
-                    height="225"
-                    alt={"Throw"}
-                    src={require("../assets/img/contextPics/Throw1.jpg")}
-                    width="100"
-                  /> */}
+           
                   An effective martial artist is an empowered individual. And
                   empowered individuals have the confidence to make choices and
                   decide whether to engage in violence, or to contain/defuse a
@@ -96,11 +83,7 @@ const UconnAboutPage = () => {
                   
                 </p>
               </article>
-              {/* <a id="purple" href={"../assets/img/pic0.jpg"} target="_blank" rel="noreferrer">RESUME</a> */}
-              {/* <a id="purple" href={resume} download="SHALOM DAWIT Resume.pdf">
-                {" "}
-                Resume{" "}
-              </a> */}
+          
             </div>
         
           </div>
