@@ -14,15 +14,15 @@ export const DocumentsProvider = props => {
              descriptionShort: "Techniques of the Russo Ashi Gatame No Kata",
             imageURL: require("../assets/img/contextPics/ankle1.jpg"),
            deployURL: "Ashi",
-            skills: "1",
+            //skills: "",
             id: 1
         },
         {
             
-            // name: "",
-            // descriptionShort: "",
+             name: "IKKYO NO KATA A: Attack (Kogeki) Combinations (Renraku)",
+             descriptionShort: "Attack Combinations Kata for Distance Fighting",
              imageURL: require("../assets/img/contextPics/ankle2.jpg"),
-             deployURL:"AnotherComponent",
+             deployURL:"AttackCombos",
             //skills: "",
              id: 2
         }
