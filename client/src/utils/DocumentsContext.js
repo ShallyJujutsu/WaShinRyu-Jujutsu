@@ -25,7 +25,16 @@ export const DocumentsProvider = props => {
              deployURL:"AttackCombos",
             //skills: "",
              id: 2
-        }
+        },
+        {
+
+            name:"IKKYO NO KATA B",
+            descriptionShort:"Framework to the First Set of Principles - Distance Fighting",
+            imageURL: require("../assets/img/archivedPics/hillock.gif"),
+            deployURL:"IkkyoNoKata",
+            //skills:"",
+            id:3
+        },
        
 
  
