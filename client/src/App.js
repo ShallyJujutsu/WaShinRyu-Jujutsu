@@ -14,7 +14,7 @@ import {
 //Pages
 import MainPage from './pages/aboutPage';
 import NotFoundPage from './pages/404';
-// import ContactPage from './pages/contactPage';
+import ContactPage from './pages/contactPage';
 import DocumentsListPage from './pages/documentsListPage';
 import DocumentsPage from './pages/documentsPage';
 //import DocumentPage from './components/Document/{document.name}';
@@ -90,7 +90,7 @@ function App() {
         <Route exact path="/" element={<MainPage/>} />
         
               <Route exact path='/main' element={<MainPage/>} />
-              {/* <Route exact path='/contact' element={<ContactPage/>} /> */}
+              <Route exact path='/contact' element={<ContactPage/>} />
               <Route exact path='/documentsList' element={<DocumentsListPage/>} />
               <Route exact path='/documents' element={<DocumentsPage/>} />
               {/* <Route exact path='/404' component={NotFoundPage} /> */}
