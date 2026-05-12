@@ -15,7 +15,7 @@ function Footer() {
     <div className="row footerRow">
     <div className="col-lg-10 col-md-10 col-sm-10"/>
     <div id="image" className="col-lg-2 col-md-2 col-sm-2">
-       <img  src={require("../../assets/img/favicon.ico")} alt={"juju"}/> 12/20
+       <img  src={require("../../assets/img/favicon.ico")} alt={"juju"}/> 4/26
     </div>
     </div>
 </footer>

@@ -13,7 +13,7 @@ function Navbar() {
                 <form>
                   <ScrollToTop />
                 <Link id="red" to="/main">ABOUT</Link>               
-                    <Link id="green" to="/portfolio">PORTFOLIO</Link>
+                    <Link id="green" to="/documentsList">DOCUMENTS</Link>
                     <Link id="blue" to="/contact">CONTACT</Link> 
                 </form>
             </nav>
