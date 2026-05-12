@@ -20,12 +20,16 @@
     "web-vitals": "^3.3.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "set Port=3080 && react-scripts start",
+    "start": "react-scripts start",
+    "prestart:prod": "npm install",
+    "start:prod": "react-scripts build",
+    "wrongpoststart:prod": "cd .. && node server.js",
+    "wrongstart:prod": "react-scripts start && npm run start2:prod",
+    "start2:prod": "cd .. && node server.js",
+    "wrongAgainpoststart:prod": "react-scripts start",
+    "install:next": "npm install",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "buildPartDeux": "cd .. && npm start"
   },
   "eslintConfig": {
     "extends": [
