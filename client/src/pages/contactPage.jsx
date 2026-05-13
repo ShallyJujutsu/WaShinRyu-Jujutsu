@@ -31,14 +31,14 @@ const UconnContactPage = () => {
 
 . Otherwise, contact information for Wa Shin Ryu's Instructors and Officers are listed below.</p>
 
-<table bgcolor="black" border="0" cellpadding="0" cellspacing="0" width="100%">
+<table bgcolor="black" border="0" cellPadding="0" cellSpacing="0" width="100%">
 	<tbody>
 		<tr>
 			<td bgcolor="black">
 			<div align="center"><u><strong>CONTACTS</strong></u><br />
-			&nbsp;</div>
+			</div>
 
-			<table border="0" cellpadding="0" cellspacing="0" id="AutoNumber2" 
+			<table border="0" cellPadding="0" cellSpacing="0" id="AutoNumber2" 
       // style="border-collapse: collapse" 
       width="100%">
 				<tbody>
@@ -64,7 +64,7 @@ const UconnContactPage = () => {
 						United States Jui-Jutsu Federation Member<br />
                         Webmaster<br/>
 						<strong><a href="mailto:shally.jujutsu@gmail.com">shally.jujutsu@gmail.com</a></strong><br />
-						&nbsp;</p>
+						</p>
 						</td>
 					</tr>
 					
@@ -77,7 +77,7 @@ const UconnContactPage = () => {
 				</tbody>
 			</table>
 			</td>
-			<td height="915" width="1%">&nbsp;
+			<td height="915" width="1%">
 			<p></p>
 
 			<p></p>
@@ -93,12 +93,12 @@ const UconnContactPage = () => {
 			<p></p>
 
 			<p><br />
-			&nbsp;</p>
+			</p>
 			</td>
 		</tr>
 		<tr>
-			<td height="19" width="400">&nbsp;
-			<table border="0" cellpadding="0" cellspacing="0" id="AutoNumber5" 
+			<td height="19" width="400">
+			<table border="0" cellPadding="0" cellSpacing="0" id="AutoNumber5" 
       // style="border-collapse: collapse" 
       width="100%">
 				<tbody>
