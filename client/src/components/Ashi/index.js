@@ -20,9 +20,9 @@ NOTE:  The techniques below are not listed in any particular order</h4>
 <li><img alt={"The Technique"} src={require("../../assets/img/contextPics/ankle4.jpg")}/>Technique4</li>
 
 <li><img alt={"The Technique"} src={require("../../assets/img/contextPics/ankle5.jpg")}/>Technique5</li>
-<li><img alt={"The Technique"} src={require("../../assets/img/contextPics/ankle5.jpg")}/>Technique6 (to come)</li>
+<li><img alt={"The Technique"} src={require("../../assets/img/contextPics/nopho.jpg")}/>Technique6 (to come)</li>
 
-<li><img alt={"The Technique"} src={require("../../assets/img/contextPics/ankle5.jpg")}/>Technique7 (to come)</li>
+<li><img alt={"The Technique"} src={require("../../assets/img/contextPics/nopho.jpg")}/>Technique7 (to come)</li>
 
 <li><img alt={"The Technique"} src={require("../../assets/img/contextPics/knee1.jpg")}/>Technique8</li>
 <li><img alt={"The Technique"} src={require("../../assets/img/contextPics/knee2.jpg")}/>Technique9</li>
@@ -33,8 +33,8 @@ NOTE:  The techniques below are not listed in any particular order</h4>
 <li><img alt={"The Technique"} src={require("../../assets/img/contextPics/knee7.jpg")}/>Technique14</li>
 <li><img alt={"The Technique"} src={require("../../assets/img/contextPics/knee8.jpg")}/>Technique15</li>
 <li><img alt={"The Technique"} src={require("../../assets/img/contextPics/knee9.jpg")}/>Technique16</li>
-<li><img alt={"The Technique"} src={require("../../assets/img/contextPics/knee9.jpg")}/>Technique17 (to come)</li>
-<li><img alt={"The Technique"} src={require("../../assets/img/contextPics/knee9.jpg")}/>Technique18 (to come)</li>
+<li><img alt={"The Technique"} src={require("../../assets/img/contextPics/nopho.jpg")}/>Technique17 (to come)</li>
+<li><img alt={"The Technique"} src={require("../../assets/img/contextPics/nopho.jpg")}/>Technique18 (to come)</li>
 </div>
 
     </>
