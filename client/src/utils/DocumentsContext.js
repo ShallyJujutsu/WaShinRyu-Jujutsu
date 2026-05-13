@@ -43,7 +43,22 @@ export const DocumentsProvider = props => {
             //skills:"",
             id:4
         },
-       
+          {
+            name:"Nage No Kata (1)",
+            descriptionShort: "Nikyo No Kata A (Omote Version)",
+            imageURL: require("../assets/img/contextPics/Throw1.jpg"),
+            deployURL: "NageNoKata1",
+            //skills:"",
+            id:5
+        },
+         {
+            name:"Nage No Kata (2)",
+            descriptionShort: "Ura or Combat Version: Throws From The Clinch Position",
+            imageURL: require("../assets/img/contextPics/Throw2.jpg"),
+            deployURL: "NageNoKata2",
+            //skills:"",
+            id:6
+        },
 
  
 
