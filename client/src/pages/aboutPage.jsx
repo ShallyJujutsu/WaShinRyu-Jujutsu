@@ -25,7 +25,7 @@ const UconnAboutPage = () => {
 
         <main className="col-xs-12 col-lg-10">
           <div id="skillsAbout">
-            <h3>ABOUT </h3>
+            <h1>ABOUT </h1>
 
             <div id="bio">
           
