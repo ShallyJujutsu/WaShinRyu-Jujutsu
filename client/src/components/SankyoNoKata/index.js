@@ -1,81 +1,327 @@
-
-
-
-
 function Documents() {
-
-    return (
+  return (
     <>
-
-            <center><u><h2>Sankyo No Kata</h2></u></center>
-            <br /> 
-            {/* <h2>of</h2>
+      <center>
+        <u>
+          <h2>Sankyo No Kata</h2>
+        </u>
+      </center>
+      <br />
+      {/* <h2>of</h2>
             <br /> 
             <u><h2>Wa Shin Ryu Jujutsu</h2></u> </center> */}
-            <h4>v1.09, 2-19-04</h4>
-                <p>The Sankyo No Kata consists of 32 techniques which illustrate key principles of ground fighting in Wa Shin Ryu Jujutsu. It should be noted that a kata is not intended to be an exhaustive list of all techniques contained in the system. </p>
-                    <b>The kata is to be demonstrated on both the left and the right side.</b>
-                    <hr/>
+      <h4>v1.09, 2-19-04</h4>
+      <p>
+        The Sankyo No Kata consists of 32 techniques which illustrate key
+        principles of ground fighting in Wa Shin Ryu Jujutsu. It should be noted
+        that a kata is not intended to be an exhaustive list of all techniques
+        contained in the system.{" "}
+      </p>
+      <b>The kata is to be demonstrated on both the left and the right side.</b>
+      <hr />
 
-                        <center><h4><u>About the Sankyo No Kata</u></h4></center>
+      <center>
+        <h4>
+          <u>About the Sankyo No Kata</u>
+        </h4>
+      </center>
 
-                        <p>This kata is in THREE parts. Part I focuses primarily on the demonstration of continuity and good linkage in the application of effective joint locking and strangling techniques. Part II stresses the development of multiple body skills but focuses primarily on using the center to establish control, and to escape and move from one position to another while maintaining control of the assailant. Part III is a new addition and is now in development.  Part III has 12 techniques.</p>
-                            <center><h4><u>PART I</u></h4></center>
+      <p>
+        This kata is in THREE parts. Part I focuses primarily on the
+        demonstration of continuity and good linkage in the application of
+        effective joint locking and strangling techniques. Part II stresses the
+        development of multiple body skills but focuses primarily on using the
+        center to establish control, and to escape and move from one position to
+        another while maintaining control of the assailant. Part III is a new
+        addition and is now in development. Part III has 12 techniques.
+      </p>
+      <center>
+        <h4>
+          <u>PART I</u>
+        </h4>
+      </center>
 
-                            <p>Uke and Tori kneel in seiza position about six feet apart. They then bow to each other and stand up. Uke then begins attack against Tori by delivering a shomen tsuki (punch to the face).</p>
-                            
-                            <u><p>1. Hadaka Jime (naked strangle)</p></u>
-                            <p>Uke throws punch to Tori's face. Tori deflects with both hands, steps in with right foot and positions self behind Uke. Tori then pulls Uke's head back using left hand across forehead. Then, Tori applies hadaka jime in standing position by stepping back <u>with left foot</u>.</p>
-                            <p>* For beginners, up to and including rank of Gokyu, the strangling technique ends in the standing position immediately after Uke taps out. Tori then takes Uke down on his/her back by releasing Hadaka Jime (but keeping both arms about the neck region) and dropping onto right knee and then applying Hadaka Jime once more.</p>
-                            <p>**Advanced students maintain the strangle, drop down on right knee while continuing to keep Uke in unbalanced postion and apply Hadaka Jime once more.</p>
-                            
-                            <u><p>2. Kuzure Yoko Shiho Gatame (modified side four quarters hold)</p></u>
-                            <p>Tori releases Hadaka Jime, places Uke on back (by turning Uke to left side) and applies Kuzure Yoko Shiho Gatame.</p>
-                            
-                            <u><p>3. Ude Gatame (straight arm elbow lock)</p></u>
-                            <p>Uke then pushes against Tori's right shoulder with left hand. Tori resists and then yields, sliding into Ude Gatame. Uke taps out.</p>
-                            
-                            <u><p>4. Ude Garame (bent arm (entangled)  elbow lock)</p></u>
-                            <p>Uke then pulls left arm back and to the ground and Tori follows through without releasing Uke's arm into Ude Garame. Uke taps out.</p>
-                            
-                            <u><p>5. Waki Gatame</p></u>
-                            <p>Uke then pushes with left hand against Tori's LEFT shoulder. Tori resists and when Uke pushes again Tori yields and turns away and to the left while at the same time seizing Uke's left arm and turning into Waki Gatame. Uke taps out.</p>
-                            
-                            <u><p>6. Tekubi Gatame</p></u>
-                            <p>Tori then releases and attempts to turn away (to his/her left). Tori prevents Uke turning over completely by trapping Uke's RIGHT arm with own right arm at the elbow. Tori then seizes Uke's right hand and applies Tekubi Gatame. For this technique Tori is on right knee while left leg is up, left foot positioned slightly above and beyond Uke's head. Uke taps out.</p>
-                            
-                            <u><p>7. Juji Gatame</p></u>
-                            <p>While maintaining control of right arm tori rises slightly and enters into Juji Gatame (remember to fit tightly on Uke's shoulder before sitting down and rolling back to apply the technique). Uke taps out.</p>
-                            
-                            <u><p>8. Uke Waza into Uraken (blocking followed with double backfist strike)</p></u>
-                            <p>Tori then releases and Uke turns into Tori, assuming a kneeling position between Tori's legs. Attempts to strike Tori face with right and then left punches which are blocked by Tori. Tori then strikes with Uraken starting with left hand.</p>
-                            
-                            <u><p>9. Kata Juji Jime</p></u>
-                            <p>Tori then seizes Uke's right side lapel (high on the jacket) with left hand (thumb inside jacket) and then slides right hand (also thumb inside jacket) high on the jacket and behind Uke's right ear. Tori then releases grip with left hand and slides left hand under the right, seizing Uke's left side lapel high on the jacket. Applies strangling technique while turning own body to right side and pushing Uke's left knee away and back with own right foot. Tori completes strangling technique while Uke is completely stretched out on the floor, face down. Uke taps out.</p>
-                            
-                            <u><p>10. Ashi Gatame (Leg Lock)</p></u>
-                            <p>While still in the strangling position Tori releases hold with left hand, seizes Uke's right arm and places it in elbow of own right arm which by now has also released hold on Uke's neck. Tori then brings own LEFT leg over and in front of Uke's face and places calf area across Uke's throat. Tori's whole body is now almost turned over such that Tori is lying almost face down. Ashi Gatame is executed by thrusting downward with hips against Uke's right elbow (from center) and stretched out arm which is now secured by Tori's right hand. Tori's left hand is placed palm down about shoulder level and helps stabilize Tori's position. Uke taps out.</p>
-                            
-                            <u><p>11. Escape (Fusegi) From Kesa Gatame</p></u>
-                            <p>As Tori releases Uke, Uke drives into Tori and applies a right side Kesa Gatame (scarf hold). Tori escapes hold by turning Uke over by bridging, and using both arms about Uke's waist and chest. Te movement begins with a rocking motion which drives Uke's upper body forward with head toward the mat. At this point Tori completes the bridge and rolls Uke diagonally across own chest and body and over own left shoulder. Note that the escape is not executed by turning Uke sideways across one's body at belt level. </p>
-                            
-                            <u><p>12. Jigoku Jime (Hell Strangle)</p></u>
-                            <p>At the end of the escape from Kesa Gatame Tori keeps right arm in Uke's right side at about elbow level. Tori's left arm hooks Uke's left arm who then drives in with left leg to trap Uke's left arm. Tori then applies jime waza with left hand. Realizing what's happening Uke attempts to rise up on all fours at which point Tori rolls over taking Uke with him/her. The roll is started by pushing with rear foot off the mat and by pulling Uke's right arm in and under, dropping Uke's shoulder back down to the mat. After completing the roll-over (staying tight with Uke) Tori forms figure 4 with legs, trapping Uke's left arm, and locks own right arm (which is already holding Uke's right arm at about the elbow) by placing own hand behind the neck. With both of Uke's arms now trapped Tori then applies ippon eri jime (single hand lapel strangle) with left hand. Uke taps out. Tori releases Uke and as Tori is getting up Uke proceeds to attack #13 below.</p>
-       {/* -----------------------------------  */}
-                                <center><h4><u>PART II</u></h4></center>
+      <p>
+        Uke and Tori kneel in seiza position about six feet apart. They then bow
+        to each other and stand up. Uke then begins attack against Tori by
+        delivering a shomen tsuki (punch to the face).
+      </p>
 
+      <u>
+        <p>1. Hadaka Jime (naked strangle)</p>
+      </u>
+      <p>
+        Uke throws punch to Tori's face. Tori deflects with both hands, steps in
+        with right foot and positions self behind Uke. Tori then pulls Uke's
+        head back using left hand across forehead. Then, Tori applies hadaka
+        jime in standing position by stepping back <u>with left foot</u>.
+      </p>
+      <p>
+        * For beginners, up to and including rank of Gokyu, the strangling
+        technique ends in the standing position immediately after Uke taps out.
+        Tori then takes Uke down on his/her back by releasing Hadaka Jime (but
+        keeping both arms about the neck region) and dropping onto right knee
+        and then applying Hadaka Jime once more.
+      </p>
+      <p>
+        **Advanced students maintain the strangle, drop down on right knee while
+        continuing to keep Uke in unbalanced postion and apply Hadaka Jime once
+        more.
+      </p>
 
-                                <p>13. <u>Leg Trap (Ryote Ashi Dori)  into Ushiro Empi Uchi</u>. Uke kicks (Mukozune Geri) Tori  who is in crouched position in the ribs with right shin.  Tori takes hit with a strong kiai, seizes Uke's leg with left arm, leans all his/her weight on it, especially against the knee and rolls Uke back and down. Tori rolls toward Uke and delivers Ushiro Empi Uchi to Uke's face. This procedure teaches Tori how to use own side and body to apply effective leverage.</p>
-                                <p>14. <u>Escape from Two Arm Wrist Pin to Pressure Point Technique to Calf</u>. As Tori is rising Uke pushes him/her over, sits astride and pins both of Tori's wrists on the ground. Tori strikes Uke with own knee, fakes trying to slide own wrists together above own head and as Uke resists Tori drives both arms down toward the legs, straightens and locks Uke's arms by pressing upwards with own arms, bridges and turns Uke onto his/her back and delivers Seiken Uchi to groin. Tori then turn Uke over using right arm, pins Uke with own body and applies pressure point technique to calf using own right forearm. This procedure stresses the development of multiple body skills on the ground including the use of action and reaction, effective bridging and rolling, and the application of pressure to a vital area (Kyusho waza)</p>
-                                <p>15. <u>Escape from Two Arm Rear Chest Grab into Finger Lock (Yubi Gatame)</u>. While Tori is getting up but is still on all fours Uke seizes Tori from above by wrapping arms around Tori's back and chest. Tori fakes a turn to the right and then drives up and in (on diagonal) leading with own right foot and rotates Uke off and onto his/her back.  Tori then shifts own weight to pin Uke's right shoulder and upper body to floor while applying Yubi Gatame against Uke's right little finger with own left hand.  Right hand secures Uke's right thumb. This procedure stresses the development of multiple body skills on the ground including the use of one's center to rotate, turn and pin Uke, and the application of Kansetsu Waza to the fingers.</p>
-                                    <p>16. <u> Escape from Front Strangle (Ryote Jime)  into Modified Juji Gatame</u>.  As Tori is rising Uke pushes him/her back down, sits astride and applies two hand neck choke from top. Tori cuts Uke's elbows with both hands using Shuto, secures Uke's right lapel from outside using own left hand, locks Uke's left elbow by pressing against it with own right hand, bridges and rolls Uke over. Tori then covers Uke's arms with own left forearm and delivers Teisho Uchi to Uke's chin with base of palm. Tori then presses down Uke's right leg to the floor with own left hand, steps out with left leg and traps Uke's right inner thigh with own right shin. Tori then steps over Uke's trapped right thigh and moves in to pin Uke in a modified Yoko Shiho Gatame.  Uke pushes against Tori's right shoulder with left hand, Tori yields and rises and rotates clockwise around Uke's extended left arm and applies Kuzure Juji Gatame on Uke's arm. Tori's right heel is positioned inside Uke's right arm pit. This procedure stresses the development of multiple body skills including multiple strikes using different parts of the hand, shifting positions while controlling Uke and the application of a novel entry into juji gatame.</p>
-                                        <p>17. <u>Escape from Yoko Shiho Gatame to Hand/Leg Strangle</u>.  Uke applies Yoko Shiho Gatame.  Tori strikes Uke's left side of the head with own left fist. Then Tori escapes by pushing Uke's side of head away and trapping Uke's head with left  leg. Tori then slides in with left hand across Uke's throat and applies shime waza using leverage from left hand and left leg. This procedure stresses shime waza by using forces generated by both the hand/arm and the leg (thigh).</p>
-                                        <p>18. <u>Escape from Side Strangle (Yoko Hadaka Jime) into Osae Waza (pinning technique)</u>. Uke attempts to strangle Tori with own left forearm and right hand by trapping Tori's neck and head while Tori is still facing down. Uke kneels or sits along side Tori and to his/her right side. Tori turns own body to face Uke's and slides in toward Uke by dropping and turning own body awat from Uke. Using this momentum Tori then escapes by bridging and turning Uke over onto his/her back. While keeping Uke pinned to the floor Tri rotates on top of Uke's body in a clockwise fashion to pin Uke's right arm across Uke's face and his/her left arm across his/her chest.  This technique demonstrates the application of effective centering on the ground</p>
-                                            <p>19.  <u>Sankaku Jime (triangle strangle)</u>. As Tori is rising Uke charges him/her from the front, pushes Tori back down  and positions self between Tori's leg.  Uke then attempts to turn Tori over onto his/her face by scooping Tori's right leg up (from nehind the knee). Tori positions right leg about Uke's neck and traps Uke's right arm and neck using both legs in a figure four. Tori also secures Uke's right forearm with own left hand by seizing and pressing against own body. Tori tightens figure four technique by arching own back  while at the same time  applying kansetsu waza to Uke's right elbow.</p>
-                                                <p>20.  <u>Two Arm Diagonal Throw from Kneeling Position (Morote  Naname Guruma)</u>.  As Tori is getting up Uke charges from standing position and attempts to push Tori back using both hands.  Tori deflects and joins, using both arms,  hurling Uke onto his/her back.  This technique stresses good harmonization with Uke while developing a strong and centered posture in the kneeling position.</p>
+      <u>
+        <p>2. Kuzure Yoko Shiho Gatame (modified side four quarters hold)</p>
+      </u>
+      <p>
+        Tori releases Hadaka Jime, places Uke on back (by turning Uke to left
+        side) and applies Kuzure Yoko Shiho Gatame.
+      </p>
 
-                                            </>
-                                            );
+      <u>
+        <p>3. Ude Gatame (straight arm elbow lock)</p>
+      </u>
+      <p>
+        Uke then pushes against Tori's right shoulder with left hand. Tori
+        resists and then yields, sliding into Ude Gatame. Uke taps out.
+      </p>
+
+      <u>
+        <p>4. Ude Garame (bent arm (entangled) elbow lock)</p>
+      </u>
+      <p>
+        Uke then pulls left arm back and to the ground and Tori follows through
+        without releasing Uke's arm into Ude Garame. Uke taps out.
+      </p>
+
+      <u>
+        <p>5. Waki Gatame</p>
+      </u>
+      <p>
+        Uke then pushes with left hand against Tori's LEFT shoulder. Tori
+        resists and when Uke pushes again Tori yields and turns away and to the
+        left while at the same time seizing Uke's left arm and turning into Waki
+        Gatame. Uke taps out.
+      </p>
+
+      <u>
+        <p>6. Tekubi Gatame</p>
+      </u>
+      <p>
+        Tori then releases and attempts to turn away (to his/her left). Tori
+        prevents Uke turning over completely by trapping Uke's RIGHT arm with
+        own right arm at the elbow. Tori then seizes Uke's right hand and
+        applies Tekubi Gatame. For this technique Tori is on right knee while
+        left leg is up, left foot positioned slightly above and beyond Uke's
+        head. Uke taps out.
+      </p>
+
+      <u>
+        <p>7. Juji Gatame</p>
+      </u>
+      <p>
+        While maintaining control of right arm tori rises slightly and enters
+        into Juji Gatame (remember to fit tightly on Uke's shoulder before
+        sitting down and rolling back to apply the technique). Uke taps out.
+      </p>
+
+      <u>
+        <p>
+          8. Uke Waza into Uraken (blocking followed with double backfist
+          strike)
+        </p>
+      </u>
+      <p>
+        Tori then releases and Uke turns into Tori, assuming a kneeling position
+        between Tori's legs. Attempts to strike Tori face with right and then
+        left punches which are blocked by Tori. Tori then strikes with Uraken
+        starting with left hand.
+      </p>
+
+      <u>
+        <p>9. Kata Juji Jime</p>
+      </u>
+      <p>
+        Tori then seizes Uke's right side lapel (high on the jacket) with left
+        hand (thumb inside jacket) and then slides right hand (also thumb inside
+        jacket) high on the jacket and behind Uke's right ear. Tori then
+        releases grip with left hand and slides left hand under the right,
+        seizing Uke's left side lapel high on the jacket. Applies strangling
+        technique while turning own body to right side and pushing Uke's left
+        knee away and back with own right foot. Tori completes strangling
+        technique while Uke is completely stretched out on the floor, face down.
+        Uke taps out.
+      </p>
+
+      <u>
+        <p>10. Ashi Gatame (Leg Lock)</p>
+      </u>
+      <p>
+        While still in the strangling position Tori releases hold with left
+        hand, seizes Uke's right arm and places it in elbow of own right arm
+        which by now has also released hold on Uke's neck. Tori then brings own
+        LEFT leg over and in front of Uke's face and places calf area across
+        Uke's throat. Tori's whole body is now almost turned over such that Tori
+        is lying almost face down. Ashi Gatame is executed by thrusting downward
+        with hips against Uke's right elbow (from center) and stretched out arm
+        which is now secured by Tori's right hand. Tori's left hand is placed
+        palm down about shoulder level and helps stabilize Tori's position. Uke
+        taps out.
+      </p>
+
+      <u>
+        <p>11. Escape (Fusegi) From Kesa Gatame</p>
+      </u>
+      <p>
+        As Tori releases Uke, Uke drives into Tori and applies a right side Kesa
+        Gatame (scarf hold). Tori escapes hold by turning Uke over by bridging,
+        and using both arms about Uke's waist and chest. Te movement begins with
+        a rocking motion which drives Uke's upper body forward with head toward
+        the mat. At this point Tori completes the bridge and rolls Uke
+        diagonally across own chest and body and over own left shoulder. Note
+        that the escape is not executed by turning Uke sideways across one's
+        body at belt level.{" "}
+      </p>
+
+      <u>
+        <p>12. Jigoku Jime (Hell Strangle)</p>
+      </u>
+      <p>
+        At the end of the escape from Kesa Gatame Tori keeps right arm in Uke's
+        right side at about elbow level. Tori's left arm hooks Uke's left arm
+        who then drives in with left leg to trap Uke's left arm. Tori then
+        applies jime waza with left hand. Realizing what's happening Uke
+        attempts to rise up on all fours at which point Tori rolls over taking
+        Uke with him/her. The roll is started by pushing with rear foot off the
+        mat and by pulling Uke's right arm in and under, dropping Uke's shoulder
+        back down to the mat. After completing the roll-over (staying tight with
+        Uke) Tori forms figure 4 with legs, trapping Uke's left arm, and locks
+        own right arm (which is already holding Uke's right arm at about the
+        elbow) by placing own hand behind the neck. With both of Uke's arms now
+        trapped Tori then applies ippon eri jime (single hand lapel strangle)
+        with left hand. Uke taps out. Tori releases Uke and as Tori is getting
+        up Uke proceeds to attack #13 below.
+      </p>
+      {/* -----------------------------------  */}
+      <center>
+        <h4>
+          <u>PART II</u>
+        </h4>
+      </center>
+
+      <p>
+        13. <u>Leg Trap (Ryote Ashi Dori) into Ushiro Empi Uchi</u>. Uke kicks
+        (Mukozune Geri) Tori who is in crouched position in the ribs with right
+        shin. Tori takes hit with a strong kiai, seizes Uke's leg with left arm,
+        leans all his/her weight on it, especially against the knee and rolls
+        Uke back and down. Tori rolls toward Uke and delivers Ushiro Empi Uchi
+        to Uke's face. This procedure teaches Tori how to use own side and body
+        to apply effective leverage.
+      </p>
+      <p>
+        14.{" "}
+        <u>Escape from Two Arm Wrist Pin to Pressure Point Technique to Calf</u>
+        . As Tori is rising Uke pushes him/her over, sits astride and pins both
+        of Tori's wrists on the ground. Tori strikes Uke with own knee, fakes
+        trying to slide own wrists together above own head and as Uke resists
+        Tori drives both arms down toward the legs, straightens and locks Uke's
+        arms by pressing upwards with own arms, bridges and turns Uke onto
+        his/her back and delivers Seiken Uchi to groin. Tori then turn Uke over
+        using right arm, pins Uke with own body and applies pressure point
+        technique to calf using own right forearm. This procedure stresses the
+        development of multiple body skills on the ground including the use of
+        action and reaction, effective bridging and rolling, and the application
+        of pressure to a vital area (Kyusho waza)
+      </p>
+      <p>
+        15.{" "}
+        <u>
+          Escape from Two Arm Rear Chest Grab into Finger Lock (Yubi Gatame)
+        </u>
+        . While Tori is getting up but is still on all fours Uke seizes Tori
+        from above by wrapping arms around Tori's back and chest. Tori fakes a
+        turn to the right and then drives up and in (on diagonal) leading with
+        own right foot and rotates Uke off and onto his/her back. Tori then
+        shifts own weight to pin Uke's right shoulder and upper body to floor
+        while applying Yubi Gatame against Uke's right little finger with own
+        left hand. Right hand secures Uke's right thumb. This procedure stresses
+        the development of multiple body skills on the ground including the use
+        of one's center to rotate, turn and pin Uke, and the application of
+        Kansetsu Waza to the fingers.
+      </p>
+      <p>
+        16.{" "}
+        <u>
+          {" "}
+          Escape from Front Strangle (Ryote Jime) into Modified Juji Gatame
+        </u>
+        . As Tori is rising Uke pushes him/her back down, sits astride and
+        applies two hand neck choke from top. Tori cuts Uke's elbows with both
+        hands using Shuto, secures Uke's right lapel from outside using own left
+        hand, locks Uke's left elbow by pressing against it with own right hand,
+        bridges and rolls Uke over. Tori then covers Uke's arms with own left
+        forearm and delivers Teisho Uchi to Uke's chin with base of palm. Tori
+        then presses down Uke's right leg to the floor with own left hand, steps
+        out with left leg and traps Uke's right inner thigh with own right shin.
+        Tori then steps over Uke's trapped right thigh and moves in to pin Uke
+        in a modified Yoko Shiho Gatame. Uke pushes against Tori's right
+        shoulder with left hand, Tori yields and rises and rotates clockwise
+        around Uke's extended left arm and applies Kuzure Juji Gatame on Uke's
+        arm. Tori's right heel is positioned inside Uke's right arm pit. This
+        procedure stresses the development of multiple body skills including
+        multiple strikes using different parts of the hand, shifting positions
+        while controlling Uke and the application of a novel entry into juji
+        gatame.
+      </p>
+      <p>
+        17. <u>Escape from Yoko Shiho Gatame to Hand/Leg Strangle</u>. Uke
+        applies Yoko Shiho Gatame. Tori strikes Uke's left side of the head with
+        own left fist. Then Tori escapes by pushing Uke's side of head away and
+        trapping Uke's head with left leg. Tori then slides in with left hand
+        across Uke's throat and applies shime waza using leverage from left hand
+        and left leg. This procedure stresses shime waza by using forces
+        generated by both the hand/arm and the leg (thigh).
+      </p>
+      <p>
+        18.{" "}
+        <u>
+          Escape from Side Strangle (Yoko Hadaka Jime) into Osae Waza (pinning
+          technique)
+        </u>
+        . Uke attempts to strangle Tori with own left forearm and right hand by
+        trapping Tori's neck and head while Tori is still facing down. Uke
+        kneels or sits along side Tori and to his/her right side. Tori turns own
+        body to face Uke's and slides in toward Uke by dropping and turning own
+        body awat from Uke. Using this momentum Tori then escapes by bridging
+        and turning Uke over onto his/her back. While keeping Uke pinned to the
+        floor Tri rotates on top of Uke's body in a clockwise fashion to pin
+        Uke's right arm across Uke's face and his/her left arm across his/her
+        chest. This technique demonstrates the application of effective
+        centering on the ground
+      </p>
+      <p>
+        19. <u>Sankaku Jime (triangle strangle)</u>. As Tori is rising Uke
+        charges him/her from the front, pushes Tori back down and positions self
+        between Tori's leg. Uke then attempts to turn Tori over onto his/her
+        face by scooping Tori's right leg up (from nehind the knee). Tori
+        positions right leg about Uke's neck and traps Uke's right arm and neck
+        using both legs in a figure four. Tori also secures Uke's right forearm
+        with own left hand by seizing and pressing against own body. Tori
+        tightens figure four technique by arching own back while at the same
+        time applying kansetsu waza to Uke's right elbow.
+      </p>
+      <p>
+        20.{" "}
+        <u>
+          Two Arm Diagonal Throw from Kneeling Position (Morote Naname Guruma)
+        </u>
+        . As Tori is getting up Uke charges from standing position and attempts
+        to push Tori back using both hands. Tori deflects and joins, using both
+        arms, hurling Uke onto his/her back. This technique stresses good
+        harmonization with Uke while developing a strong and centered posture in
+        the kneeling position.
+      </p>
+    </>
+  );
 }
 
-                                            export default Documents;
+export default Documents;
