@@ -15,7 +15,7 @@ export const DocumentsProvider = props => {
             imageURL: require("../assets/img/contextPics/ankle1.jpg"),
            deployURL: "Ashi",
             //skills: "",
-            id: 1
+            id:1
         },
         {
             
@@ -24,7 +24,7 @@ export const DocumentsProvider = props => {
              imageURL: require("../assets/img/contextPics/ankle2.jpg"),
              deployURL:"AttackCombos",
             //skills: "",
-             id: 2
+             id:2
         },
         {
 
@@ -59,7 +59,14 @@ export const DocumentsProvider = props => {
             //skills:"",
             id:6
         },
-
+  {
+            name:"Sankyo No Kata",
+            descriptionShort: "Ura or Combat Version: Throws From The Clinch Position",
+            imageURL: require("../assets/img/contextPics/pic06.jpg"),
+            deployURL: "SankyoNoKata",
+            //skills:"",
+            id:7
+        },
  
 
 ]); 
