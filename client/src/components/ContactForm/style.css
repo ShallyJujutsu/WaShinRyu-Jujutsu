@@ -48,3 +48,8 @@ backface-visibility: hidden;
 box-sizing: border-box;
 } */
 
+#contact_links img{
+    max-height: 40px;
+    max-width: 40px;
+  
+  }

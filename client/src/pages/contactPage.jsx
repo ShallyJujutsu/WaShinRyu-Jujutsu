@@ -1,7 +1,16 @@
-import React from "react";
+import React, {useState} from "react";
 import { motion } from "framer-motion";
+import {Button} from "reactstrap";
+import ModalForm from "../components/ContactForm";
 
 const UconnContactPage = () => {
+
+	const [modalForm,setModalForm]=useState(false);
+
+	  const handleClick = () => {
+    setModalForm(true);
+  };
+
   return (
     <motion.div
       initial="hidden"
@@ -26,16 +35,23 @@ const UconnContactPage = () => {
         <main className="col-xs-12 col-lg-10">
           <div id="skillsAbout">
             <h3>ABOUT </h3>
-<br/>
+            <br />
             <p>
-              For general questions about Wa Shin Ryu Jujutsu. Please send a
-              message to{" "}
+              For general questions about Wa Shin Ryu Jujutsu, please
+              <a onClick={handleClick}> Click This Form</a>, or send a message to{" "}
               <a href="mailto:shally.jujutsu@gmail.com">
                 shally.jujutsu@gmail.com
-              </a> Or <a href="">Click This Form</a>
-               . Otherwise, contact information for Wa Shin Ryu's Instructors and
+              </a>
+              . Otherwise, contact information for Wa Shin Ryu's Instructors and
               Officers are listed below.
             </p>
+
+{/* ----------------------------------------- */}
+{/* modal pop-out */}
+
+{modalForm && <ModalForm/>}
+
+{/* ----------------------------------------- */}
 
             <table
               bgcolor="black"
