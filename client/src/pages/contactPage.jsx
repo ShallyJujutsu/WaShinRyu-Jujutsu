@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import { motion } from "framer-motion";
 import {Button} from "reactstrap";
 import ModalForm from "../components/ContactForm";
+import "../assets/css/contactPage.css";
 
 const UconnContactPage = () => {
 
@@ -38,7 +39,7 @@ const UconnContactPage = () => {
             <br />
             <p>
               For general questions about Wa Shin Ryu Jujutsu, please
-              <a onClick={handleClick}> Click This Form</a>, or send a message to{" "}
+              <Button onClick={handleClick}> Click This Form</Button>, or send a message to{" "}
               <a href="mailto:shally.jujutsu@gmail.com">
                 shally.jujutsu@gmail.com
               </a>
