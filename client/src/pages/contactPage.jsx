@@ -38,8 +38,8 @@ const UconnContactPage = () => {
             <h3>ABOUT </h3>
             <br />
             <p>
-              For general questions about Wa Shin Ryu Jujutsu, please
-              <Button onClick={handleClick}> Click This Form</Button>, or send a message to{" "}
+              For general questions about Wa Shin Ryu Jujutsu, please 
+              <Button className="button" onClick={handleClick}>Click This Form</Button>  , or send a message to{" "}
               <a href="mailto:shally.jujutsu@gmail.com">
                 shally.jujutsu@gmail.com
               </a>

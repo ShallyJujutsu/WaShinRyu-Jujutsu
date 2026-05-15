@@ -4,21 +4,32 @@
       background-image:repeat;
 } */
 
-#contact_links img{
+/* #contact_links img{
     max-height: 40px;
     max-width: 40px;
   
+  } */
+
+.button {
+  color: rgb(15, 1, 44);
+  padding: 0.5em;
+
+  border-color: rgb(107, 70, 183);
+  font-weight: bold;
+  border-radius: 2em;
+  margin: 0.5em;
+}
+.button:hover {
+  opacity: 1;
+  color: white;
+  background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    padding-top: 5rem !important;
   }
-
-  Button{
-    
-  }
-
-
-  @media screen and (max-width:768px) {
-    main{padding-top:5rem!important;
-        }
-    h1{
+  h1 {
     font-size: 10vw;
-        }
-    } 
+  }
+}
