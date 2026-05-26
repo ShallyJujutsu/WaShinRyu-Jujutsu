@@ -69,6 +69,7 @@ function ContactFormModal() {
       { confirmationSuccess && <ResultSuccess />}
       {confirmationOther && <ResultOther />}
       <Form id="contactForm" onSubmit={submitRequest}>
+     
         <label htmlFor="name">Name:</label>
         <br />
         <input type="text" id="name" name="name" placeholder="ENTER YOUR NAME" onChange={e => setName(e.target.value)}
