@@ -1,21 +1,10 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
-//import {Button} from "reactstrap";
 import ContactFormModal from "../components/ContactFormModal";
 import ContactFormMessage from "../components/ContactFormMessage";
-import ResultSuccess from "../components/ResultSuccess";
-import ResultOther from "../components/ResultOther";
-// import "../assets/css/contactPage.css";
 
 const UconnContactPage = () => {
-
-	// const [modalForm,setModalForm]=useState(false);
-  const [modalForm]=useState(false);
-  // const [confirmationSuccess, setConfirmationSuccess] = useState(false);
-  //   const [confirmationOther, setConfirmationOther] = useState(false);
-	//   const handleClick = () => {
-  //   setModalForm(true);
-  // };
+  const [modalForm] = useState(false);
 
   return (
     <motion.div
@@ -36,35 +25,28 @@ const UconnContactPage = () => {
       }}
     >
       <div className="bod">
-        {/* <Navbar /> */}
-
         <main className="col-xs-12 col-lg-10">
           <div id="skillsAbout">
             <h3>ABOUT </h3>
-               {/* { confirmationSuccess && <ResultSuccess />}
-                  {confirmationOther && <ResultOther />} */}
+
             <br />
             <p>
-              For general questions about Wa Shin Ryu Jujutsu, please 
-              {/* <Button className="button" onClick={handleClick}>Click This Form</Button> */}
-              <ContactFormMessage/>
-                , or send a message to{" "}
+              For general questions about Wa Shin Ryu Jujutsu, please
+              <ContactFormMessage />, or send a message to{" "}
               <a href="mailto:shally.jujutsu@gmail.com">
-                shally.jujutsu@gmail.com
+                Shally.Jujutsu@gmail.com
               </a>
-              . Otherwise, contact information for Wa Shin Ryu's Instructors and
-              Officers are listed below.
+              . Otherwise, contact information for Wa Shin Ryu's Instructors are
+              listed below.
             </p>
 
-{/* ----------------------------------------- */}
-{/* modal pop-out */}
+            {/* ----------------------------------------- */}
+            {/* modal pop-out */}
 
-{modalForm && <ContactFormModal/>}
+            {modalForm && <ContactFormModal />}
 
-{/* ----------------------------------------- */}
+            {/* ----------------------------------------- */}
 
-
-{/* <ContactFormModal/> */}
             <table
               bgcolor="black"
               border="0"
@@ -294,8 +276,6 @@ const UconnContactPage = () => {
             </table>
           </div>
         </main>
-
-        {/*  <Footer /> */}
       </div>
     </motion.div>
   );
