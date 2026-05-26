@@ -94,16 +94,17 @@ function ContactForm() {
         <br />
         <input id="submitBtn" type="submit" value="Submit" />
         <br /><br />
-        <div><span>Email: </span>Shalom.Dawit@Gmail.com</div>
+        {/* <div><span>Email: </span>Shally.Jujutsu@Gmail.com</div> */}
         <div id="contact_links">
-          <a href="https://www.linkedin.com/in/shalom-dawit-a0a5a4126"
-            target="_blank" rel="noreferrer">
-            <img className="contact_icon" alt="LinkedIn_Image" src={require("../../assets/img/icon-linkedin.png")} />
+           <a href={"mailto:shally.jujutsu@gmail.com"} target="_blank" rel="noreferrer">
+            <img className="contact_icon" alt="Email_Image" src={require("../../assets/img/icon-email.png")} />
           </a>
           <br />
 
-          <a href={"https://github.com/MrDawit"} target="_blank" rel="noreferrer">
-            <img className="contact_icon" alt="Github_Image" src={require("../../assets/img/github-logo.png")} />
+         
+          <a href="https://www.linkedin.com/in/shalom-dawit-a0a5a4126"
+            target="_blank" rel="noreferrer">
+            <img className="contact_icon" alt="LinkedIn_Image" src={require("../../assets/img/icon-linkedin.png")} />
           </a>
         </div>
       </form>

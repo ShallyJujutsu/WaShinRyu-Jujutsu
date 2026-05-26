@@ -25,7 +25,7 @@ function Documents() {
 
 
     <div>
-        {importedComponent? importedComponent : <div>This is my NONE functional component!</div>}
+        {importedComponent? importedComponent : <div>COMPONENT NOT FOUND</div>}
        
       </div>
   </>

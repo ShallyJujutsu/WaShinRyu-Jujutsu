@@ -1,7 +1,7 @@
 import React from 'react';
 import {motion} from 'framer-motion';
 import Documents from "../components/Documents/index";
-import "../assets/css/portfolioPage.css";
+import "../assets/css/documentsPage.css";
 
 const DocumentsListPage = () => {
 

@@ -3,7 +3,7 @@ import {motion} from 'framer-motion';
 import DocumentsList from '../components/DocumentsList';
 import { DocumentsProvider } from "../utils/DocumentsContext";
 
-import "../assets/css/portfolioPage.css";
+import "../assets/css/documentsPage.css";
 
 const DocumentsListPage = () => {
 

@@ -88,8 +88,8 @@ const UconnAboutPage = () => {
         
           </div>
 
-          <div class="flex-container">
-            <div class="text-content">
+          <div className="flex-container">
+            <div className="text-content">
           <b >
                     To earn 1 credit for Jujutsu at the University of
                     Connecticut (As AH1200-03), a permission number is required.
