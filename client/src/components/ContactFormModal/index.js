@@ -1,16 +1,18 @@
 
 import React, { useState } from "react";
+import {Form} from "reactstrap";
 import "./style.css";
 import ResultSuccess from "../ResultSuccess";
 import ResultOther from "../ResultOther";
 
-function ContactForm() {
+// function ContactFormModal({confirmationSucces}) {
+function ContactFormModal() {
   const [name, setName] = useState('');
   const [contactWay, setContactWay] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
   const [confirmationSuccess, setConfirmationSuccess] = useState(false);
-  const [confirmationOther, setConfirmationOther] = useState(false);
+ const [confirmationOther, setConfirmationOther] = useState(false);
 
   const submitRequest = async (e) => {
     e.preventDefault();
@@ -38,6 +40,7 @@ function ContactForm() {
     if (await report.status === 'SENT') {
       //changing state
       setConfirmationSuccess(true);
+      // confirmationSucces=true;
       setConfirmationOther(false);
       //clearing form
       setName('');
@@ -65,7 +68,7 @@ function ContactForm() {
       {/* change response components to bootstrap arrangement to the right side of ContactForm */}
       { confirmationSuccess && <ResultSuccess />}
       {confirmationOther && <ResultOther />}
-      <form id="contactForm" onSubmit={submitRequest}>
+      <Form id="contactForm" onSubmit={submitRequest}>
         <label htmlFor="name">Name:</label>
         <br />
         <input type="text" id="name" name="name" placeholder="ENTER YOUR NAME" onChange={e => setName(e.target.value)}
@@ -107,9 +110,9 @@ function ContactForm() {
             <img className="contact_icon" alt="LinkedIn_Image" src={require("../../assets/img/icon-linkedin.png")} />
           </a>
         </div>
-      </form>
+    </Form>
     </>
   );
 }
 
-export default ContactForm;
+export default ContactFormModal;

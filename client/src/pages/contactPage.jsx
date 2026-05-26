@@ -1,17 +1,21 @@
 import React, {useState} from "react";
 import { motion } from "framer-motion";
-import {Button} from "reactstrap";
-import ModalForm from "../components/ContactForm";
-import MessageForm from "../components/ContactMessage";
+//import {Button} from "reactstrap";
+import ContactFormModal from "../components/ContactFormModal";
+import ContactFormMessage from "../components/ContactFormMessage";
+import ResultSuccess from "../components/ResultSuccess";
+import ResultOther from "../components/ResultOther";
 // import "../assets/css/contactPage.css";
 
 const UconnContactPage = () => {
 
-	const [modalForm,setModalForm]=useState(false);
-
-	  const handleClick = () => {
-    setModalForm(true);
-  };
+	// const [modalForm,setModalForm]=useState(false);
+  const [modalForm]=useState(false);
+  // const [confirmationSuccess, setConfirmationSuccess] = useState(false);
+  //   const [confirmationOther, setConfirmationOther] = useState(false);
+	//   const handleClick = () => {
+  //   setModalForm(true);
+  // };
 
   return (
     <motion.div
@@ -37,11 +41,13 @@ const UconnContactPage = () => {
         <main className="col-xs-12 col-lg-10">
           <div id="skillsAbout">
             <h3>ABOUT </h3>
+               {/* { confirmationSuccess && <ResultSuccess />}
+                  {confirmationOther && <ResultOther />} */}
             <br />
             <p>
               For general questions about Wa Shin Ryu Jujutsu, please 
               {/* <Button className="button" onClick={handleClick}>Click This Form</Button> */}
-              <MessageForm/>
+              <ContactFormMessage/>
                 , or send a message to{" "}
               <a href="mailto:shally.jujutsu@gmail.com">
                 shally.jujutsu@gmail.com
@@ -53,10 +59,12 @@ const UconnContactPage = () => {
 {/* ----------------------------------------- */}
 {/* modal pop-out */}
 
-{modalForm && <ModalForm/>}
+{modalForm && <ContactFormModal/>}
 
 {/* ----------------------------------------- */}
 
+
+{/* <ContactFormModal/> */}
             <table
               bgcolor="black"
               border="0"
