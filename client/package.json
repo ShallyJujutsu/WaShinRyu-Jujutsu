@@ -3,6 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "",
+    "scripts": {
+    "start": "react-scripts start",
+    "prestart:prod": "npm install",
+    "start:prod": "react-scripts build",
+    "wrongpoststart:prod": "cd .. && node server.mjs",
+    "wrongstart:prod": "react-scripts start && npm run start2:prod",
+    "start2:prod": "cd .. && node server.mjs",
+    "wrongAgainpoststart:prod": "react-scripts start",
+    "install:next": "npm install",
+    "build": "react-scripts build",
+    "buildPartDeux": "cd .. && npm start"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
@@ -20,18 +32,7 @@
     "resend": "^6.12.4",
     "web-vitals": "^3.3.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "prestart:prod": "npm install",
-    "start:prod": "react-scripts build",
-    "wrongpoststart:prod": "cd .. && node server.mjs",
-    "wrongstart:prod": "react-scripts start && npm run start2:prod",
-    "start2:prod": "cd .. && node server.mjs",
-    "wrongAgainpoststart:prod": "react-scripts start",
-    "install:next": "npm install",
-    "build": "react-scripts build",
-    "buildPartDeux": "cd .. && npm start"
-  },
+
   "eslintConfig": {
     "extends": [
       "react-app",

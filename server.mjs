@@ -1,4 +1,3 @@
-
 import "dotenv/config";
 import express from "express";
 import bodyParser from "body-parser";
@@ -22,8 +21,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cookieParser());
 
-// require("./routes/api-routes.js")(app);
 import apiRoutes from "./routes/api-routes.mjs";
+
 apiRoutes(app);
 
 //CONFIGURE FOR HEROKU DEPLOYMENT
@@ -46,7 +45,7 @@ if (process.env.NODE_ENV === "production") {
       );
     } else {
       //opens up production address on browser
-      exec(`${start} https://portafoglioreact.onrender.com/`);
+      exec(`${start} https://www.wsrjj.org/`);
       console.log(
         `Server is running on port ${SERVER_PORT} in production address.`,
       );
