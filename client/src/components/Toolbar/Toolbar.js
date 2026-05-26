@@ -22,11 +22,11 @@ function Toolbar (props) {
            
               <form id="navForm">
            <ScrollToTop />
-                   <Link id="red" to="/main" >ABOUT</Link>   
+                   <Link id="about_button" to="/main" >ABOUT</Link>   
                 
-                   <Link id="green" to="/documentsList">DOCUMENTS</Link>
+                   <Link id="documents_button" to="/documentsList">DOCUMENTS</Link>
                   
-                   <Link id="blue" to="/contact">CONTACT</Link>
+                   <Link id="contact_button" to="/contact">CONTACT</Link>
                 
                </form>
           

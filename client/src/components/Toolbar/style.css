@@ -21,25 +21,27 @@
     transform: translateY(4px);
   }
   .toolbar_navigation-items li:hover {
-    color:black;
+    color:white;
   } 
-  #red{
-    box-shadow: 0 5px red;
+  #contact_button{
+    box-shadow: 0 5px rgb(34, 8, 82);
   }
-  #red:hover{
-    background-color:red;
+  #contact_button:hover{
+    color:white;
+    background-color:rgb(34, 8, 82);
   }
-  #green{
-    box-shadow: 0 5px green;
+  #documents_button{
+    box-shadow: 0 5px rgb(113, 63, 206);
   }
-  #green:hover{
-    background-color:green;
+  #documents_button:hover{
+    background-color:rgb(113, 63, 206);
   }
-  #blue{
-    box-shadow: 0 5px blue;
+  #about_button{
+    box-shadow: 0 5px rgb(34, 8, 82);
   }
-  #blue:hover{
-    background-color:blue;
+  #about_button:hover{
+    color:white;
+    background-color:rgb(34, 8, 82);
   }
   
   
