@@ -12,13 +12,13 @@ const sideDrawer = props => {
     <nav className={drawerClasses} >
      <ul id="drawer_ul">
                     <li className="drawer_item">
-                    <Link className="drawer_links" id="red_sideDrawer" to="/main" onClick={props.click} >ABOUT</Link>   
+                    <Link className="drawer_links" id="about_sideDrawer" to="/main" onClick={props.click} >ABOUT</Link>   
                     </li>
                     <li className="drawer_item">
-                    <Link className="drawer_links" id="green_sideDrawer" to="/documentsList" onClick={props.click} >DOCUMENTS</Link>
+                    <Link className="drawer_links" id="documents_sideDrawer" to="/documentsList" onClick={props.click} >DOCUMENTS</Link>
                     </li>
                     <li className="drawer_item">
-                    <Link className="drawer_links" id="blue_sideDrawer" to="/contact" onClick={props.click}>CONTACT</Link>
+                    <Link className="drawer_links" id="contacts_sideDrawer" to="/contact" onClick={props.click}>CONTACT</Link>
                     </li>
                 </ul>
     </nav>
