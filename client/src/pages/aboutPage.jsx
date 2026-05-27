@@ -24,14 +24,13 @@ const UconnAboutPage = () => {
     >
       <div className="bod">
         <main className="col-xs-12 col-lg-10">
-          {/* <h3>bod</h3> */}
           <div id="skillsAbout">
             <h3>ABOUT </h3>
             <div id="about_border">
               <div id="bio">
                 <h1>Wa Shin Ryu </h1>
                 <img
-                  alt={"Shalom Dawit"}
+                  alt={"Throw"}
                   src={require("../assets/img/contextPics/Throw1.jpg")}
                   className="image-wrapper float-left img-responsive pr-2"
                   id="aboutImage"
@@ -82,9 +81,28 @@ const UconnAboutPage = () => {
                   <br />
                   <br />
                   The club includes both male and female students and community
-                  participation is encouraged. Club membership costs $20 a
-                  semester. The club is free to occasional guests and other
-                  visitors.{" "}
+                  participation is encouraged. There is a minimal fee for club
+                  membership per semester, but is free to occasional guests and
+                  other visitors.{" "}
+                  <div>
+                    To earn 1 credit for Jujutsu at the University of
+                    Connecticut (As AH1200-03), a permission number is required.
+                    Contact Sensei Kane if you wish to do so.
+                  </div>
+                  <div>
+                    NOTE: We put on demonstrations and give clinics and
+                    workshops for law enforcement, the military and security
+                    agencies. If interested, leave a message on our{" "}
+                    <Button id="contactButtonAboutPage" href={"#/contact"}>
+                      CONTACT{" "}
+                    </Button>{" "}
+                    page.
+                  </div>
+                  <div id="classInactive">
+                    Class and club are currently inactive due to the University
+                    of Connecticut's classes reduction due to budget cuts.
+                    Please reach out for more information/updates!
+                  </div>
                 </article>
 
                 <Button
@@ -92,7 +110,7 @@ const UconnAboutPage = () => {
                   href={course_syllabus}
                   download="JujutsuCourseSyllabus_fall_2021.pdf"
                 >
-                  Click for Course SYLLABUS
+                  Course SYLLABUS
                 </Button>
               </div>
             </div>

@@ -71,9 +71,28 @@ h1 span{
      padding: 2px;
      border-radius: 45%;
  }
+#classInactive{
+    font-weight:bold;
+    color:red;
+/* text-decoration:underline; */
+}
 
+#contactButtonAboutPage{
+      /* border: 3px solid indigo; */
+     border: 3px solid rgb(27, 2, 47);
+   /* box-shadow: 0 5px grey; */
+   /* border-radius:95%; */
+    /* background-color:rgb(75, 81, 177); */
+    /* float:left; */
+    color:white;
 
-
+    /* transform: translateY(4px); */
+}
+#contactButtonAboutPage:hover{
+  border: none;
+    color: black;
+    background-color: grey;
+}
  /* #skillsAbout {
        border:indigo solid;
      padding: 1em;
