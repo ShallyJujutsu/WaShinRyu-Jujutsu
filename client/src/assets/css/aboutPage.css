@@ -32,10 +32,10 @@ main img {
     max-width:350px;
 }
 
-#bioImage {
+#aboutImage  {
     border-style: solid;
     border-width: 10px 0 10px 10px;
-    border-color:black;
+  border-color:black;
 }
 
 article{
@@ -47,8 +47,8 @@ article{
 
 h1{
     text-decoration-color: goldenrod;
-    text-decoration:double overline;
-    font-size: 3vw;
+    /* text-decoration:double overline; */
+    /* font-size: 3vw; */
     
 }
 
@@ -73,12 +73,13 @@ h1 span{
  }
 
  h3{
-     text-decoration: double overline;
+     /* text-decoration: double overline; */
  }
 
- #skillsAbout {
-     
- }
+ /* #skillsAbout {
+       border:indigo solid;
+     padding: 1em;
+ } */
 /* 
 @media screen and (max-width:768px) {
     main{padding-top:5rem!important;
