@@ -36,8 +36,9 @@ import Tilt from './components/Tilt/Tilt.js';
 // import tiltForeground from './assets/img/Globe.jpg';
 
 //Duplicate react test
-require('react-dom');
-window.React2 = require('react');
+import 'react-dom';
+//require('react-dom');
+// window.React2 = require('react');
 console.log(window.React1 === window.React2);
 
 function App() {
