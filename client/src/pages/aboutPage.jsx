@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import course_syllabus from "../assets/documents/procedures/JujutsuCourseSyllabus_fall_2009.pdf"
-import {Button} from "reactstrap";
+import course_syllabus from "../assets/documents/procedures/JujutsuCourseSyllabus_fall_2009.pdf";
+import { Button } from "reactstrap";
 import "../assets/css/aboutPage.css";
 const UconnAboutPage = () => {
   return (
@@ -23,29 +23,26 @@ const UconnAboutPage = () => {
       }}
     >
       <div className="bod">
- 
         <main className="col-xs-12 col-lg-10">
-         {/* <h3>bod</h3> */}
+          {/* <h3>bod</h3> */}
           <div id="skillsAbout">
             <h3>ABOUT </h3>
-       <div id="about_border">
+            <div id="about_border">
+              <div id="bio">
+                <h1>Wa Shin Ryu </h1>
+                <img
+                  alt={"Shalom Dawit"}
+                  src={require("../assets/img/contextPics/Throw1.jpg")}
+                  className="image-wrapper float-left img-responsive pr-2"
+                  id="aboutImage"
+                />
 
-            <div id="bio">
-              <h1>Wa Shin Ryu </h1>
-              <img 
-              
-                alt={"Shalom Dawit"}
-                src={require("../assets/img/contextPics/Throw1.jpg")}
-                className="image-wrapper float-left img-responsive pr-2"
-                id="aboutImage"
-              />
-
-              <article className="pull-right">
-             Dr. Yiannakis started the UConn Judo Club in 1976 but the name
+                <article className="pull-right">
+                  Dr. Yiannakis started the UConn Judo Club in 1976 but the name
                   was changed to UConn Judo and Jujutsu Club in 1995, and then
                   finally to UConn Jujutsu Club in 1999. The official Japanese
                   name for the club is BUDENKAN, the school of traditional
-                  martial arts. The club is the home of    
+                  martial arts. The club is the home of
                   <b> Wa Shin Ryu Jujutsu</b>, a holistic, comprehensive system
                   of unarmed combat founded by Prof. Yiannakis in 1983. The
                   system has a basis, in form and philosophy, in Koryu Bujutsu
@@ -65,7 +62,6 @@ const UconnAboutPage = () => {
                   appropriate response at the time!
                   <br />
                   <br />
-           
                   An effective martial artist is an empowered individual. And
                   empowered individuals have the confidence to make choices and
                   decide whether to engage in violence, or to contain/defuse a
@@ -89,20 +85,19 @@ const UconnAboutPage = () => {
                   participation is encouraged. Club membership costs $20 a
                   semester. The club is free to occasional guests and other
                   visitors.{" "}
-                  
-                
-              </article>
-           
-              <Button id="purple" href={course_syllabus} download="JujutsuCourseSyllabus_fall_2009.pdf">
-             
-                Click for Course SYLLABUS
-              </Button>
-            </div>
+                </article>
+
+                <Button
+                  id="purple"
+                  href={course_syllabus}
+                  download="JujutsuCourseSyllabus_fall_2021.pdf"
+                >
+                  Click for Course SYLLABUS
+                </Button>
+              </div>
             </div>
           </div>
         </main>
-
-      
       </div>
     </motion.div>
   );
