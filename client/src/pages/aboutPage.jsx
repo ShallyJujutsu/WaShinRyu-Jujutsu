@@ -99,8 +99,8 @@ const UconnAboutPage = () => {
                     page.
                   </div>
                   <div id="classInactive">
-                    Class and club are currently inactive due to the University
-                    of Connecticut's classes reduction due to budget cuts.
+                    Class and club are currently inactive. This is due to the University
+                    of Connecticut's classes reduction caused by budget cuts.
                     Please reach out for more information/updates!
                   </div>
                 </article>
