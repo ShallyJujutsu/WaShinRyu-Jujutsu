@@ -64,7 +64,7 @@ export const DocumentsProvider = props => {
          {
             
             name: "Ashi No Kata",
-             descriptionShort: "Techniques of the Russo Ashi Gatame No Kata",
+             descriptionShort: "Techniques of the Russo Ashi Gatame No Kata (Descriptions not provided)",
             imageURL: require("../assets/img/contextPics/ankle1.jpg"),
            deployURL: "Ashi",
             //skills: "",
