@@ -12,7 +12,7 @@ function Documents() {
             <u><h2>Wa Shin Ryu Jujutsu</h2></u> </center> */}
       <h4>v1.09, 2-19-04</h4>
       <p>
-        The Sankyo No Kata consists of 32 techniques which illustrate key
+        The Sankyo No Kata consists of 20 techniques which illustrate key
         principles of ground fighting in Wa Shin Ryu Jujutsu. It should be noted
         that a kata is not intended to be an exhaustive list of all techniques
         contained in the system.{" "}
