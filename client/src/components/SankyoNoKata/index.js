@@ -19,7 +19,7 @@ function Documents() {
       </p>
       <b>The kata is to be demonstrated on both the left and the right side.</b>
       <hr />
-
+      <div></div>
       <center>
         <h4>
           <u>About the Sankyo No Kata</u>
@@ -27,13 +27,14 @@ function Documents() {
       </center>
 
       <p>
-        This kata is in THREE parts. Part I focuses primarily on the
-        demonstration of continuity and good linkage in the application of
-        effective joint locking and strangling techniques. Part II stresses the
-        development of multiple body skills but focuses primarily on using the
-        center to establish control, and to escape and move from one position to
-        another while maintaining control of the assailant. Part III is a new
-        addition and is now in development. Part III has 12 techniques.
+        This kata is in THREE parts. Listed are only Parts I & II. Part I
+        focuses primarily on the demonstration of continuity and good linkage in
+        the application of effective joint locking and strangling techniques.
+        Part II stresses the development of multiple body skills but focuses
+        primarily on using the center to establish control, and to escape and
+        move from one position to another while maintaining control of the
+        assailant. Part III(not listed) has been development. Part III has 12
+        additional techniques.
       </p>
       <center>
         <h4>
