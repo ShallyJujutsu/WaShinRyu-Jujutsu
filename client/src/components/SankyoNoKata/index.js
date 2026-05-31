@@ -1,3 +1,5 @@
+import sankyo_unm_2015 from "../../assets/documents/techniques/SANKYO NO KATA Part I,  v2.2,  2-13-2015.pdf";
+import { Button } from "reactstrap";
 function Documents() {
   return (
     <>
@@ -19,7 +21,9 @@ function Documents() {
       </p>
       <b>The kata is to be demonstrated on both the left and the right side.</b>
       <hr />
-      <div></div>
+      <Button id="contactButtonAboutPage" href={sankyo_unm_2015}>
+        Sankyo No Kata from UNM WSRJJ (different version)
+      </Button>
       <center>
         <h4>
           <u>About the Sankyo No Kata</u>
