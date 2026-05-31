@@ -39,13 +39,13 @@ if (process.env.NODE_ENV === "production") {
   app.listen(SERVER_PORT, "0.0.0.0", () => {
     if (process.env.NODE_ENV_PRODUCTION_TEST === "true") {
       //opens up localhost address on browser
-      exec(`${start} http://localhost:${SERVER_PORT}/`);
+     // exec(`${start} http://localhost:${SERVER_PORT}/`);
       console.log(
         `Server is running on port ${SERVER_PORT} in production mode.`,
       );
     } else {
       //opens up production address on browser
-      exec(`${start} https://www.wsrjj.org/`);
+     // exec(`${start} https://www.wsrjj.org/`);
       console.log(
         `Server is running on port ${SERVER_PORT} in production address.`,
       );

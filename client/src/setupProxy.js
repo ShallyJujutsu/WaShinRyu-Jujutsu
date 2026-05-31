@@ -1,11 +1,10 @@
-// const SERVER_PORT = process.env.SERVER_PORT || 8080;
-// const proxy = require('http-proxy-middleware');
+//Never use ES6 modules (like import and export) for setupProxy.js file. This file runs in an un-transpiled Node.js environment during the development stage, which only supports standard CommonJS syntax (require and module.exports)
 const { createProxyMiddleware } = require('http-proxy-middleware');
-// import { createProxyMiddleware } from 'http-proxy-middleware';
+
 
 const SERVER_PORT = process.env.SERVER_PORT || 8080;
-//follow reverse/forward path to find out why ES6 not working
+
 module.exports = function(app){
-// export default (app) =>{
-    app.use(createProxyMiddleware('/api', {target: `http://localhost:${SERVER_PORT}`} ));
+    // app.use(createProxyMiddleware('/api', {target: `http://localhost:${SERVER_PORT}`} ));
+    app.use('/api', createProxyMiddleware({ target: `http://localhost:${SERVER_PORT}`, changeOrigin: true }));
 };
