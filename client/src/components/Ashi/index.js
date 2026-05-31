@@ -26,7 +26,7 @@ function Documents() {
       <h4>
         This kata is performed in sets of three techniques. Special care must be
         taken when applying such technankles to the ankle and knee. NOTE: The
-        techniques below are not listed in any particular order
+        techniques below DO NOT have to be completed in any particular order
       </h4>
 
       <div>
